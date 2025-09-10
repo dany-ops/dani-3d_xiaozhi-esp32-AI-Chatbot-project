@@ -1,5 +1,7 @@
 ✨️📟
 # Dani3D AI Chatbot Project ESP32  
+☕ Dacă vrei să susții proiectele mele și să pot testa cât mai multe idei noi:  
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Buy%20Me%20a%20Coffee-orange)](https://revolut.me/danielnjbm)
 
 Toate versiunile oficiale ale proiectului le găsești aici:  
 👉 [Descarcă de pe GitHub Releases](https://github.com/78/xiaozhi-esp32/releases/tag/v1.9.1)
