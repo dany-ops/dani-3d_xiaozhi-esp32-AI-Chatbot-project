@@ -1,47 +1,13 @@
-# An MCP-based Chatbot | 一个基于 MCP 的聊天机器人
+✨️📟
+# Dani3D AI Chatbot Project ESP32  
 
-（中文 | [English](README_en.md) | [日本語](README_ja.md)）
+Toate versiunile oficiale ale proiectului le găsești aici:  
+👉 [Descarcă de pe GitHub Releases](https://github.com/78/xiaozhi-esp32/releases/tag/v1.9.1)
 
-## 视频
+👆
 
-👉 [人类：给 AI 装摄像头 vs AI：当场发现主人三天没洗头【bilibili】](https://www.bilibili.com/video/BV1bpjgzKEhd/)
 
-👉 [手工打造你的 AI 女友，新手入门教程【bilibili】](https://www.bilibili.com/video/BV1XnmFYLEJN/)
 
-## 介绍
-
-这是一个由虾哥开源的 ESP32 项目，以 MIT 许可证发布，允许任何人免费使用，或用于商业用途。
-
-我们希望通过这个项目，能够帮助大家了解 AI 硬件开发，将当下飞速发展的大语言模型应用到实际的硬件设备中。
-
-如果你有任何想法或建议，请随时提出 Issues 或加入 QQ 群：1011329060
-
-### 基于 MCP 控制万物
-
-小智 AI 聊天机器人作为一个语音交互入口，利用 Qwen / DeepSeek 等大模型的 AI 能力，通过 MCP 协议实现多端控制。
-
-![通过MCP控制万物](docs/mcp-based-graph.jpg)
-
-### 已实现功能
-
-- Wi-Fi / ML307 Cat.1 4G
-- 离线语音唤醒 [ESP-SR](https://github.com/espressif/esp-sr)
-- 支持两种通信协议（[Websocket](docs/websocket.md) 或 MQTT+UDP）
-- 采用 OPUS 音频编解码
-- 基于流式 ASR + LLM + TTS 架构的语音交互
-- 声纹识别，识别当前说话人的身份 [3D Speaker](https://github.com/modelscope/3D-Speaker)
-- OLED / LCD 显示屏，支持表情显示
-- 电量显示与电源管理
-- 支持多语言（中文、英文、日文）
-- 支持 ESP32-C3、ESP32-S3、ESP32-P4 芯片平台
-- 通过设备端 MCP 实现设备控制（音量、灯光、电机、GPIO 等）
-- 通过云端 MCP 扩展大模型能力（智能家居控制、PC桌面操作、知识搜索、邮件收发等）
-
-## 硬件
-
-### 面包板手工制作实践
-
-详见飞书文档教程：
 
 👉 [《小智 AI 聊天机器人百科全书》](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb?from=from_copylink)
 
